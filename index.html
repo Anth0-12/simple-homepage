@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple homepage</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="tablet.css">
+    <link rel="stylesheet" href="mobile.css">
+
+    <script src="script.js" defer></script>
+    <script src="menu.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+
+    <main id="grid">
+        <nav>
+            <div class="logo"><img src="img/alarado-icon-homepage.svg" alt="" class="logoImg"></div>
+            <div class="linkNav">
+                <a href="#" class="link">About us</a>
+                <a href="#" class="link">Product</a>
+                <a href="#" class="link">Resource</a>
+                <a href="#" class="link">Contact</a>
+            </div>
+            <div class="theme">
+                <div class="mode">
+                    <button class="dark">
+                        <img src="img/Moon_fill_light.svg" alt="" class="moon">
+                    </button>
+                
+                    <button class="light">
+                        <img src="img/Sun_fill.svg" alt="" class="sun">
+                    </button>
+                </div>
+            </div>
+
+            <button class="btnMenu">
+                <span class="barre"></span>
+                <span class="barre"></span>
+                <span class="barre"></span>
+            </button>
+
+            <div class="menu">
+                <button class="croix"><i class="fa-solid fa-xmark fa-2xl"></i></button>
+                <a href="#" class="linkMenu"">About us</a>
+                <a href="#" class="linkMenu">Product</a>
+                <a href="#" class="linkMenu">Resource</a>
+                <a href="#" class="linkMenu">Contact</a>
+
+                <div class="themeMenu">
+                    <div class="mode">
+                        <button class="dark">
+                            <img src="img/Moon_fill_light.svg" alt="" class="moon">
+                        </button>
+                    
+                        <button class="light">
+                            <img src="img/Sun_fill.svg" alt="" class="sun">
+                        </button>
+                    </div>
+                        
+                </div>
+            </div>
+            
+        </nav>
+
+        <section class="colGauche">
+            <div class="gridGauche">
+                <p class="slogan">😎  Simple way to communicate</p>
+                <h1>Actions for Accessibility in Design</h1>
+                <p class="text">The fastest way to build and deploy websites with resusable components.</p>
+                
+                <div id="getStarted">
+                    <a href="" class="getStarted">GET STARTED</a>
+                </div>
+                
+                <div id="demo">
+                    <a href="" class="demo">Get live demo</a>
+                </div>  
+            </div>
+
+            <div class="benefit">
+                <div class="benefitGauche">
+                    <img src="img/Done_ring_round_fill.svg" alt="" class="greenRing">
+                    <p class="benefitText">No credit card required</p>
+                </div>
+                
+                <div class="benefitDroite">
+                    <img src="img/Done_ring_round_fill.svg" alt="" class="greenRing">
+                    <p class="benefitText">No software to install</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="colDroite"></section>
+    </main>
+    
+</body>
+</html>
