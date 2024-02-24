@@ -1,0 +1,92 @@
+@media screen and (min-width: 641px) and (max-width: 1024px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    }
+        .logoImg {
+            width: 60%;
+        }
+
+        .mode {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            background-color: #223344;
+
+            height: 30px;
+            width: 20%;
+
+            border-radius: 100px;
+
+            gap: 4%;
+        }
+
+            button {
+                height: 25px;
+                width: 45%;
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                border: none;
+                border-radius: 100px;
+
+                cursor: pointer;
+            }
+            .dark {
+                background-color: transparent;
+            }
+            .light {
+                background-color: #F2F9FE;
+            }
+                img {
+                    width: 70%;
+                }
+
+    .colGauche {
+        grid-column: 1;
+        grid-row: 4;
+    
+        padding: 100px 0 0 50px;
+    }
+
+        h1 {
+            grid-column: 1 / 4;
+            grid-row: 2;
+
+            color: #111729;
+            font-size: 60px;
+
+            padding: 0 200px 30px 0;
+        }
+
+        .text {
+            grid-column: 1 / 4;
+            grid-row: 3;
+
+            color: #909193;
+            font-size: 18px;
+            font-weight: 500;
+
+            padding: 0 500px 20px 0;
+        }
+
+    .colDroite{
+        grid-column: 1;
+        grid-row: 2;
+    
+        height: 500px;
+        margin: 100px 0 0 0;
+    
+        background-image: url('img/hero-image-simple-homepage.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+    
+}
